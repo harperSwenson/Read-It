@@ -12,3 +12,88 @@ form{
     text-align:left;
     font-family: 'calibri';
 }
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+
+header img {
+  height: 200px;
+  width: 200px;
+}
+
+.nav-bar-container {
+  text-align: center;
+}
+
+
+.select-container {
+  display: inline-block;
+  align-self: center;
+  margin-top: 0px;
+  width: auto;
+  text-align: center;
+  border-top: 1px solid #2C2A2B;
+  border-bottom: 1px solid #2C2A2B;
+  padding: 10px;
+  background-color: white;
+}
+
+#page-select-option {
+  padding: 50px;
+  color: #2C2A2B;
+}
+
+.new-container {
+  text-align: center;
+}
+
+.name-container {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  box-shadow: 4px 4px 8px;
+  width: 80%;
+}
+
+.name-container-h {
+  display: inline-block;
+  margin: 40px;
+  text-align: center;
+  box-shadow: 4px 4px 8px;
+  width: 80%;
+  background: url(background.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.my-name {
+  font-size: 50px;
+}
+
+.info-container {
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  box-shadow: 4px 4px 8px;
+  margin-bottom: 50px;
+}
