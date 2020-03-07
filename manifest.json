@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Read-It",
+    "version": "1.0",
+    "description": "Dyslexia aid extension.",
+    "icons": {
+      "16": "book_16.png",
+      "48": "book_48.png",
+      "128": "book_128.png"
+    },
+    "background": {
+      "persistent": false,
+      "scripts": ["background_script.js"]
+    },
+    "permissions": ["https://*.google.com/", "activeTab"],
+    "browser_action": {
+      "default_icon": "book_16.png",
+      "default_title": "Read-It",
+      "default_popup": "popup.html"
+    }
+  }
