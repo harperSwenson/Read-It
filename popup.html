@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html>
+    <script src="/index.js" charset="utf-8" defer></script>
     <head>
         <link rel="stylesheet" href="styles.css">
         <!--Sets Read-It as header-->
@@ -8,15 +9,20 @@
     </head>
 
     <!--Currently accepts any or no input, will need to connect with database for actual login-->
-    <form action="/login" methods="post">
-        <label for="usrname">Username:</label><br>
-        <input type="text" id="usrname" name="usrname"><br>
-        <label for="password">Password:</label><br>
-        <input type="text" id="password" name="password">
+    <br> <h3>Login</h3>
+    <form action="/login" method="post">
+        <div class="my-name">
+            <label>Username:</label>
+            <input type="text" name="username"/>
+        </div>
+        <div class="my-name">
+            <label>Password:</label>
+            <input type="password" name="password"/>
+        </div>
+        <div class="my-name">
+            <input type="submit" value="Login"/>
+        </div>
     </form>
 
-    <body>
-        <!--Sets up button that links to menu html page-->
-        <br><a href="menu.html"><button>Login</button></a>
-    </body>
+  
 </html>
