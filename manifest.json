@@ -11,7 +11,7 @@
     },
     "background": {
       "persistent": false,
-      "scripts": ["background_script.js"]
+      "scripts": ["index.js"]
     },
     "permissions": ["https://*.google.com/", "activeTab"],
     "browser_action": {
