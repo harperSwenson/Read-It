@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+
+    <!--<script src="/index.js" charset="utf-8" defer></script>-->
+  </head>
+  <body>
+
+    <header>
+
+      <div class="header-image-container">
+        <img src="book_128.png" alt="book-img">
+      </div>
+
+    </header>
+
+    <main class="content">
+      <section class="nav-bar-container">
+        <div class="select-container">
+          <a id='page-select-option' href='/'>Home</a>
+          <a id='page-select-option' href='/menu'>Menu</a>
+          <a id='page-select-option' href='/login'>Login</a>
+        </div>
+    </section>
+
+    <section class="new-container">
+      <div class="name-container-h">
+        <h2 class="my-name"><u><em>Read-It</em></u></h2>
+
+        <br> <h3>Login</h3>
+        <form action="/login" method="post">
+            <div class="my-name">
+                <label>Username:</label>
+                <input type="text" name="username"/>
+            </div>
+            <div class="my-name">
+                <label>Password:</label>
+                <input type="password" name="password"/>
+            </div>
+            <div class="my-name">
+                <input type="submit" value="Submit"/>
+            </div>
+        </form>
+        
+      </div>
+    </section>
+  </main>
+
+  </body>
+</html>
